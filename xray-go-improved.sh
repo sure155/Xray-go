@@ -119,6 +119,7 @@ else
     SHORT_ID=$(date +%s%N | sha256sum | cut -c1-8)
     REALITY_TARGET="www.apple.com:443"
     REALITY_SNAMES="www.apple.com"
+    PRIVATE_KEY=""
 fi
 
 # ── 下载 Xray-core ────────────────────────────────────────
